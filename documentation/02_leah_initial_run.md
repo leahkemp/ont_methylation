@@ -4,7 +4,7 @@
 
 Author: Leah Kemp
 Created: 2022/07/28 17:19:25
-Last modified: 2022/08/04 11:47:40
+Last modified: 2022/09/05 13:25:44
 
 - **Aim:** This document documents/describes a preliminary analysis of sample AB1052B
 - **Prerequisite software:** [conda](https://docs.conda.io/en/latest/) v4.10.3, [mamba](https://mamba.readthedocs.io/en/latest/index.html) v0.17.0, [samtools](https://www.htslib.org/) v1.13, [Docker](https://www.docker.com/) v20.10.11, [bgzip](https://www.htslib.org/doc/bgzip.html) v1.13+ds, [GNU tar](https://www.gnu.org/software/tar/) v1.34
@@ -22,7 +22,7 @@ Last modified: 2022/08/04 11:47:40
 
 ## Preface
 
-This is a preliminary run to run another sample at `/data/ont_methylation/data/AB1052B/run6/fast5` through the documentation/analysis that Miles did [here](./miles_first_run.md). The only modification is that we *won't* subset out on-target reads.
+This is a preliminary run to run another sample at `/data/ont_methylation/data/AB1052B/run6/fast5` through the documentation/analysis that Miles did [here](./01_miles_initial_run.md). The only modification is that we *won't* subset out on-target reads.
 
 ## Basecalling and initial alignment
 
